@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
   res.status(200);
-  res.send("Hello there 👀");
+  res.send("Hello there");
 });
 
 export default app;
