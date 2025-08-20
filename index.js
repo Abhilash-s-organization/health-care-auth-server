@@ -1,4 +1,4 @@
-import { DB } from "./connect.js";
+// import { DB } from "./connect.js";
 import express from "express";
 import bodyParser from "body-parser";
 
@@ -10,10 +10,4 @@ app.get("/", (req, res) => {
   res.send("Hello there 👀");
 });
 
-app.listen(3000, (err) => {
-  if (err) {
-    console.log("error", err.message);
-    return;
-  }
-  console.log("Listening on port 3000");
-});
+export default app;
